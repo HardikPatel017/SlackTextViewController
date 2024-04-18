@@ -301,7 +301,7 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
 
 - (CGFloat)minimumInputbarHeight
 {
-    CGFloat minimumHeight = self.textView.intrinsicContentSize.height;
+    CGFloat minimumHeight = 33;
     minimumHeight += self.contentInset.top;
     minimumHeight += self.slk_bottomMargin;
     
